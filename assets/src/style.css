@@ -1,0 +1,81 @@
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(77, 77, 77);
+}
+  
+::-webkit-scrollbar-thumb:hover {
+    background: #000;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 2rem 1rem;
+} .list-info {
+    padding: .5rem 0;
+}
+
+section, main {
+    margin-bottom: 2rem;
+} .title, .link {
+    margin-bottom: 1rem;
+} .label-info {
+    margin-bottom: .3rem;
+} .list-activities {
+    margin: .55rem 0;
+}
+
+a {
+    font-size: .85rem;
+} .label-info {
+    font-size: .75rem;
+}
+
+a {
+    color: rgb(77, 77, 77);
+    text-decoration: none;
+} a:hover {
+    text-decoration: underline;
+}
+
+time, .title {
+    font-style: italic;
+} .count-number {
+    font-weight: bold;
+    background: none;
+}
+
+time, span {
+    background: yellow;
+}
+
+#info-group {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+} #info-group section {
+    width: 100%;
+}
+
+@media (min-width: 1040px) {
+    body {    
+        padding: 4rem 5rem;
+    }
+
+    #info-group {
+        gap: 0;
+        flex-direction: row;
+    }
+
+    #info-group section {
+        width: 45%;
+    }
+}
