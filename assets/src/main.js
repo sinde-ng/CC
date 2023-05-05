@@ -54,3 +54,13 @@ listAct(count++, "INAGURASI MAHASISWA 2021", "25-09-2021")
 + listAct(count++, "TALENT SCOUTING SCC STMIK WIDYA PRATAMA 2022", "03-09-2022")
 + listAct(count++, "KEAKTIFAN PRODUKSI ACARA TV", "01-09-2022")
 + listAct(count++, "MOBILE E-SPORT COMPETITION", "10-09-2022") + "<hr/>"
+
+const btn = document.getElementById('up')
+
+window.onscroll = function () {
+    if (window.pageYOffset > 0) {
+        btn.style.display = 'block'
+    } else {
+        btn.style.display = 'none'
+    }
+}
