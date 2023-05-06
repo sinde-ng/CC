@@ -15,10 +15,17 @@
 
     <link rel="shortcut icon" href="./assets/logo/favicon.ico" type="image/x-icon">
     <link rel="apple-touch-icon" href="./assets/logo/logo192.png">
-
+    
     <link rel="stylesheet" href="./assets/src/style.css">
 </head>
-<body>
+<body id="top">
+
+    <a href="#top">
+        <button id="up">
+            <img src="/assets/icons/1738uiy13.svg" alt="icon up">
+        </button>
+    </a>
+
     <div class="container">
         <main>
             <div class="link"></div>
@@ -27,9 +34,28 @@
                 Pria&nbsp;<span><i>paruh baya</i></span>&nbsp;asal desa Pekuncen.
             </h1>
             
-            <article>
-                &nbsp;&nbsp;&nbsp;&nbsp;Ada seorang pria paruh baya yang tinggal di desa Pekuncen, yang bernama <b>Muhammad Naufal Yafi'</b> yang lahir ketika orang lain <i>merayakan Tahun Baru</i>. Pada tahun ini ia masih berstatus sebagaimahasiswa aktif di STMIK Widya Pratama dengan nomor induk mahasiswa <b>21.240.0057</b>. Ia mengambil jurusan <i>Teknik Informatika</i>dimana ia belajar di kelas 4P41, dimana ia mendapat teman yang asik walaupun adapula teman yang sedikit menjengkelkan.Ia sering berkomunikasi dengan temannya lewat WA, dengan nomor <b>+62 890 1940 6731</b>. Ia juga pernah bersekolah dasar ditempat yang jauh dari tempat tinggalnya yaitu <b>SDN 01 Pekuncen</b>. Ia sangat menyukai <b>Gudeg dan Opor</b>, makanan tersebut dapat memotivasinya untuk terus hidup.
-            </article>
+            <div class="wrapper">
+                <picture>
+                    <source srcset="/assets/images/1927317641.webp" type="image/webp">
+                    <source srcset="/assets/images/1927317641.jpg" type="image/jpg">
+                    <img src="/assets/images/1927317641.webp" alt="foto cuy">
+                </picture>
+                <article>
+                    <p>Muhammad Naufal Yafi' adalah seorang pria paruh baya yang lahir pada saat orang lain merayakan Tahun Baru. Ia tinggal di desa Pekuncen, sebuah desa kecil yang terletak di daerah pedesaan di Indonesia. Sejak kecil, ia selalu menyukai teknologi dan bermimpi untuk dapat menciptakan teknologi yang bermanfaat untuk masyarakat. </p>
+                
+                    <p>Ia telah menempuh pendidikan dari SDN 01 Pekuncen hingga saat ini ia masih berstatus sebagai mahasiswa aktif di STMIK Widya Pratama, di mana ia mengambil jurusan Teknik Informatika. Ia selalu bersemangat untuk belajar dan berprestasi di sekolah meskipun harus menempuh jarak yang cukup jauh dari rumahnya untuk dapat bersekolah.</p>
+
+                    <p>Salah satu ciri khasnya adalah ia sangat menyukai makanan tradisional Indonesia, terutama Gudeg dan Opor. Menurutnya, makanan tersebut dapat memotivasinya untuk terus hidup dan bekerja keras untuk meraih cita-citanya. Ia juga senang memasak dan sering mencoba berbagai resep makanan baru di waktu senggangnya.</p>
+
+                    <p>Meskipun tinggal di daerah pedesaan yang aksesnya terbatas, ia selalu bersemangat untuk terus mengembangkan pengetahuannya tentang teknologi. Ia sering mengikuti kursus online untuk memperdalam pengetahuannya tentang pemrograman dan teknologi terbaru.</p>
+
+                    <p>Ketekunan dan semangat juang ia dalam mengejar impian dan cita-citanya telah menginspirasi dirinya sendiri. Ketekunan seakan merajut jejak langkah, mengantarkan ia dalam setiap perjuangan. Semangat juangnya berkobar membara, membakar api semangat untuk mewujudkan impian dan cita-cita. Seperti kilauan bintang yang bersinar di malam hari, tekadnya mengilhami orang-orang di sekitarnya. Dalam perjalanannya yang panjang, ia terus berjuang dengan semangat yang tak pernah padam. Seperti bulan yang tak henti-hentinya berputar, ia terus berusaha dan berusaha, hingga mencapai puncak impian yang selama ini dikejarnya. Dengan penuh kegigihan dan tekad, ia telah menginspirasi dirinya sendiri untuk tidak pernah menyerah dalam meraih impian dan cita-cita mereka.</p>
+
+                    <p>Kerja keras dan tekad yang kuat adalah kunci utama dalam meraih kesuksesan dalam hidup. Seperti sebuah benih yang ditanam di dalam tanah, ia percaya bahwa jika kita merawatnya dengan baik dan memberikan asupan yang cukup, benih itu akan tumbuh menjadi sebuah pohon yang kokoh dan teguh. Begitu pula dengan kesuksesan, jika kita bekerja keras dan memiliki tekad yang kuat, maka kesuksesan itu akan tumbuh dan berkembang dalam hidup kita. Seperti sinar matahari yang menyinari bumi, ia yakin bahwa dengan kerja keras dan tekad yang kuat, siapa pun dapat meraih kesuksesan dalam hidup. Oleh karena itu, ia terus berjuang dan berusaha dengan penuh semangat, untuk mencapai impian dan cita-citanya, serta menginspirasi banyak orang untuk juga berjuang meraih kesuksesan yang diimpikan.</p>
+
+                    <p>Dalam kehidupan sehari-hari, ia dikenal sebagai pria yang pendiam. Banyak orang yang merasa tidak nyaman berbincang dan bekerja sama dengannya.</p>
+                </article>
+            </div>
         </main>
 
         <div id="info-group">
